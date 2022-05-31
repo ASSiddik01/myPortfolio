@@ -3,6 +3,8 @@ import ProfileCover from "./components/sections/ProfileCover";
 import Sidebar from "./components/sections/Sidebar";
 import Navbar from "./components/sections/Navbar";
 import Footer from "./components/sections/Footer";
+import "react-toastify/dist/ReactToastify.css";
+import { ToastContainer } from "react-toastify";
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
         </div>
       </div>
       <Footer />
+      <ToastContainer />
     </main>
   );
 }
