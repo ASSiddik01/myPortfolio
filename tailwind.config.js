@@ -31,10 +31,10 @@ module.exports = {
     themes: [
       {
         mytheme: {
-          primary: "#ad243e",
-          secondary: "#ea8073",
+          primary: "#d42b4a",
+          secondary: "#ad243e",
           accent: "#ffcda3",
-          neutral: "#18182F",
+          neutral: "#989898",
           "base-100": "#FFFFFF",
           info: "#3ABFF8",
           success: "#36D399",
