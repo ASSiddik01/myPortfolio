@@ -10,22 +10,15 @@ const About = () => {
           <div className="md:mx-4">
             <h3 className="text-2xl text-natural font-bold mb-4">Who am I?</h3>
             <p className="text-sm text-natural leading-6 mb-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab minima
-              amet accusantium provident, dignissimos corporis reprehenderit
-              numquam nobis ex dolore? Maxime veritatis aliquam amet inventore
-              recusandae nulla incidunt tenetur repellat voluptatibus molestias
-              quas deleniti quia vel officia veniam expedita exercitationem
-              modi, maiores saepe ut dolorum. Voluptas optio laudantium pariatur
-              aperiam!
+              It's Shama from Squeak It. Currently, I running a small team
+              providing complete e-commerce service, data processing, and any
+              type of website development.
             </p>
             <p className="text-sm text-natural leading-6 mb-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab minima
-              amet accusantium provident, dignissimos corporis reprehenderit
-              numquam nobis ex dolore? Maxime veritatis aliquam amet inventore
-              recusandae nulla incidunt tenetur repellat voluptatibus molestias
-              quas deleniti quia vel officia veniam expedita exercitationem
-              modi, maiores saepe ut dolorum. Voluptas optio laudantium pariatur
-              aperiam!
+              Since 2017, we are providing complete e-commerce services
+              including market research, suppliers connection, website
+              development, marketing, and management. We have successfully
+              completed 120+ projects from 2017 around the globe.
             </p>
           </div>
           <Skills />
