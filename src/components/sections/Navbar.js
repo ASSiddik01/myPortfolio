@@ -1,5 +1,5 @@
 import React from "react";
-import { Router, NavLink, Route, Routes, Link } from "react-router-dom";
+import { Link, Route, Routes } from "react-router-dom";
 import About from "../pages/About/About";
 import Blog from "../pages/Blog/Blog";
 import Contact from "../pages/Contact/Contact";
@@ -36,13 +36,24 @@ const navbarData = [
 
 const Navbar = () => {
   return (
-    <nav className="md:mx-8 mb-3 px-6 py-2 z-10 sticky top-0 bg-white shadow rounded">
-      <ul className="flex flex-wrap">
-        {navbarData.map((el, id) => (
-          <LinkItem el={el} key={id} />
-        ))}
-      </ul>
-    </nav>
+    <div>
+      <nav className="md:mx-8 mb-3 px-6 py-2 z-10 sticky top-0 bg-white shadow rounded">
+        <ul className="flex flex-wrap">
+          {navbarData.map((el, id) => (
+            <LinkItem el={el} key={id} />
+          ))}
+        </ul>
+      </nav>
+
+      <Routes>
+        <Route exact path="/" element={<About />}></Route>
+        <Route path="about" element={<About />}></Route>
+        <Route path="services" element={<Service />}></Route>
+        <Route path="works" element={<Portfolio />}></Route>
+        <Route path="blogs" element={<Blog />}></Route>
+        <Route path="contact" element={<Contact />}></Route>
+      </Routes>
+    </div>
   );
 };
 
@@ -54,7 +65,7 @@ const LinkItem = (props) => {
     <li className="m-3 lg:mx-5">
       <Link
         to={to}
-        activeClassName="text-purple-600"
+        // activeClassName="text-purple-600"
         className="text-gray-800 text-medium hover:text-purple-600"
       >
         {title}
