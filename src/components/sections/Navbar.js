@@ -65,8 +65,8 @@ const LinkItem = (props) => {
     <li className="m-3 lg:mx-5">
       <Link
         to={to}
-        // activeclassName="text-purple-600"
-        className="text-gray-800 text-medium hover:text-purple-600"
+        // activeclassName="text-primary"
+        className="text-gray-800 text-medium hover:text-primary"
       >
         {title}
       </Link>

@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="bg-white p-4 absolute bottom-0 left-0 w-full">
       <div className="container px-4">
-        <p className="text-sm text-gray-400 text-center">
+        <p className="text-sm text-natural text-center">
           Copyright @ {date}. All rights reserved. Designed and Developed by
           <a
             target="blank"
