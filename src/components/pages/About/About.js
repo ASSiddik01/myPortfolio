@@ -1,4 +1,5 @@
 import React from "react";
+import Education from "./Education/Education";
 import Skills from "./Skills/Skills";
 // import Skills from "./Skills/Skills";
 
@@ -22,6 +23,7 @@ const About = () => {
             </p>
           </div>
           <Skills />
+          <Education />
         </div>
       </div>
     </section>
