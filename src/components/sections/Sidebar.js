@@ -110,14 +110,30 @@ const Sidebar = () => {
       </div>
       <div className="text-start pt-4">
         <h3 className="text-md mb-2 uppercase font-medium text-gray-800">
-          About Me
+          Details
         </h3>
-        <p className="text-natural text font-light leading-relaxed">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-          rebum. Stet clita kasd gubergren, no sea takimata sanctus.
-        </p>
+        <table className="text-xs my-3">
+          <tbody>
+            <tr>
+              <td className="px-2 py-2 text-gray-500 font-semibold">Address</td>
+              <td className="px-2 py-2">121/9, Bangas Para, Chuadanga.</td>
+            </tr>
+            <tr>
+              <td className="px-2 py-2 text-gray-500 font-semibold">Phone</td>
+              <td className="px-2 py-2">01987268375</td>
+            </tr>
+            <tr>
+              <td className="px-2 py-2 text-gray-500 font-semibold">Email</td>
+              <td className="px-2 py-2">assiddik001@gmail.com</td>
+            </tr>
+            <tr>
+              <td className="px-2 py-2 text-gray-500 font-semibold">
+                Occupation
+              </td>
+              <td className="px-2 py-2">Students || Developer</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </aside>
   );
