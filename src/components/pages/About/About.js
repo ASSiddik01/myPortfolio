@@ -1,5 +1,6 @@
 import React from "react";
 import Education from "./Education/Education";
+import Exprience from "./Exprience/Exprience";
 import Skills from "./Skills/Skills";
 // import Skills from "./Skills/Skills";
 
@@ -22,6 +23,7 @@ const About = () => {
               completed 120+ projects from 2017 around the globe.
             </p>
           </div>
+          <Exprience />
           <Skills />
           <Education />
         </div>

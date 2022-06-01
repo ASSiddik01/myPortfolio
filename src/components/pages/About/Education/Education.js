@@ -10,7 +10,7 @@ const eduInfos = [
     group: "General",
   },
   {
-    _id: 1,
+    _id: 2,
     name: "SSC",
     institute: "Victoria Jubliee High School, Chuadanga",
     year: "2015",
@@ -18,15 +18,15 @@ const eduInfos = [
     group: "Business Studies",
   },
   {
-    _id: 1,
+    _id: 3,
     name: "HSC",
     institute: "Chuadanga Government college, Chuadnaga",
     year: "2017",
-    grade: "1st Devision",
+    grade: "4.25",
     group: "Business Studies",
   },
   {
-    _id: 1,
+    _id: 4,
     name: "BBA",
     institute: "Begum Rokeya University, Rangpur.",
     year: "2018-Running",
@@ -60,11 +60,7 @@ const Education = () => {
           </thead>
           <tbody>
             {eduInfos.map((eduInfo, index) => (
-              <EducationRow
-                eduInfo={eduInfo}
-                key={eduInfo.__id}
-                index={index}
-              />
+              <EducationRow eduInfo={eduInfo} key={eduInfo._id} index={index} />
             ))}
           </tbody>
         </table>
