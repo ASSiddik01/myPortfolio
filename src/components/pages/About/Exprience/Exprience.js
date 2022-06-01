@@ -10,7 +10,7 @@ const expriences = [
     _id: 2,
     institute: "Softlab Ltd.",
     year: "2022 - Running",
-    designation: "Web developer",
+    designation: "Front-end Web developer",
   },
 ];
 
