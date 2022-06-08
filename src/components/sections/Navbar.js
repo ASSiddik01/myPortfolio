@@ -3,6 +3,7 @@ import { Link, Route, Routes } from "react-router-dom";
 import About from "../pages/About/About";
 import Blog from "../pages/Blog/Blog";
 import Contact from "../pages/Contact/Contact";
+import NotFound from "../pages/NotFound/NotFound";
 import Portfolio from "../pages/Portfolio/Portfolio";
 import Service from "../pages/Service/Service";
 
@@ -52,6 +53,7 @@ const Navbar = () => {
         <Route path="works" element={<Portfolio />}></Route>
         <Route path="blogs" element={<Blog />}></Route>
         <Route path="contact" element={<Contact />}></Route>
+        <Route path="*" element={<NotFound />}></Route>
       </Routes>
     </div>
   );

@@ -27,7 +27,7 @@ const socials = [
   {
     id: 3,
     icon: <FaLinkedinIn />,
-    link: "https://www.linkedin.com/in/abu-shama-2a06a418b/",
+    link: "https://www.linkedin.com/in/imshama",
   },
   {
     id: 4,
@@ -96,7 +96,7 @@ const Sidebar = () => {
         </p>
         <a
           target="blank"
-          href="https://drive.google.com/drive/folders/1fXLh_UErQrNqrw0c5o6IJYU1d7i6vy_X?usp=sharing"
+          href="https://drive.google.com/file/d/1YSgPPC0hfc27X-0b_oZ4WBm6w23Udj5D/view?usp=sharing"
           className="inline-block mb-3 rounded bg-primary text-center border-0 py-2 px-6 text-white leading-7 tracking-wide hover:bg-secondary"
           download="Resume"
         >
