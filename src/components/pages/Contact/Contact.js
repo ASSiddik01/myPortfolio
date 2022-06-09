@@ -23,6 +23,11 @@ const Contact = () => {
           `${err.text}, ${e.target.name.value} your mail is not send`
         );
       });
+
+    e.target.name.value = null;
+    e.target.email.value = null;
+    e.target.subject.value = null;
+    e.target.message.value = null;
   };
   return (
     <section className="pb-10">
