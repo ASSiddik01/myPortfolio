@@ -47,7 +47,7 @@ const Navbar = () => {
       </nav>
 
       <Routes>
-        <Route exact path="/" element={<About />}></Route>
+        <Route path="/" element={<About />}></Route>
         <Route path="about" element={<About />}></Route>
         <Route path="services" element={<Service />}></Route>
         <Route path="works" element={<Portfolio />}></Route>
