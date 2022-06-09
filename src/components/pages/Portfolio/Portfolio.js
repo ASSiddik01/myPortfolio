@@ -1,42 +1,69 @@
 import React from "react";
-import image1 from "../../../images/portfolio/project-01.jpg";
-import image2 from "../../../images/portfolio/project-02.jpg";
-import image3 from "../../../images/portfolio/project-03.jpg";
-import image4 from "../../../images/portfolio/project-04.jpg";
 import PortfolioItem from "./PortfolioItem";
+import project1 from "../../../images/portfolio/electriccart.png";
+import project2 from "../../../images/portfolio/darecrocery.png";
+import project3 from "../../../images/portfolio/car archive.png";
+import project4 from "../../../images/portfolio/denticare.png";
+import project5 from "../../../images/portfolio/tea.png";
+import project6 from "../../../images/portfolio/saas.png";
+import project7 from "../../../images/portfolio/resturent.png";
 
 const portfolioData = [
   {
-    id: 1,
-    image: image1,
-    title: "Space Bootstrap 5 Multipurpose Template",
-    link: "#",
-    description:
-      "Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.",
+    _id: 1,
+    name: "Electric Cart",
+    type: "Full Stack",
+    url: "https://electric-cart.web.app/",
+    img: project1,
+    description: "Sell Manufactured Tools",
   },
   {
-    id: 2,
-    image: image2,
-    title: "eCommerce HTML Bootstrap 5 UI Kit",
-    link: "#",
-    description:
-      "Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.",
+    _id: 2,
+    name: "Dear Grocery",
+    type: "Full Stack",
+    url: "https://dear-grocery.web.app/",
+    img: project2,
+    description: "Sell Grocery Items",
   },
   {
-    id: 3,
-    image: image3,
-    title: "Basic – Tailwind CSS Template",
-    link: "#",
-    description:
-      "Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.",
+    _id: 3,
+    name: "Car Archive",
+    type: "Full Stack",
+    url: "https://car-archive-13491.web.app/",
+    img: project3,
+    description: "Car Dealer / Inventory Website",
   },
   {
-    id: 4,
-    image: image4,
-    title: "Gearix Car repair App",
-    link: "#",
-    description:
-      "Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.",
+    _id: 4,
+    name: "Denti Care",
+    type: "Full Stack",
+    url: "https://denti-care-fe8eb.web.app/",
+    img: project4,
+    description: "Dental Treatment Service",
+  },
+  {
+    _id: 5,
+    name: "Jannatul Tea",
+    type: "Front-end",
+    url: "https://assiddik01.github.io/Softlab_Tea/",
+    img: project5,
+    description: "Tea Factory Website",
+  },
+  {
+    _id: 6,
+    name: "SAAS",
+    type: "Front-end",
+    url: "https://assiddik01.github.io/Softlab_Tea/",
+    img: project6,
+    description: "SAAS Landing",
+  },
+  {
+    _id: 7,
+    name: "Resturent",
+    type: "Front-end",
+    url: "https://assiddik01.github.io/Softlab_Resturent_01/",
+    img: project7,
+    description: "Food Delivery",
   },
 ];
 
@@ -44,8 +71,8 @@ const Portfolio = () => {
   return (
     <section className="pb-10">
       <div className="flex flex-wrap md:px-4">
-        {portfolioData.map((portfolio, id) => (
-          <PortfolioItem portfolio={portfolio} key={id} />
+        {portfolioData.map((portfolio, _id) => (
+          <PortfolioItem portfolio={portfolio} key={_id} />
         ))}
       </div>
     </section>

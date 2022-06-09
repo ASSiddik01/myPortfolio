@@ -78,7 +78,7 @@ const Sidebar = () => {
           Web developer at
           <a
             target="blank"
-            href="https://www.facebook.com/itfle"
+            href="https://itfle.com/"
             className="text-primary pl-1"
           >
             ITFLE Ltd.
@@ -98,7 +98,6 @@ const Sidebar = () => {
           target="blank"
           href="https://drive.google.com/file/d/1YSgPPC0hfc27X-0b_oZ4WBm6w23Udj5D/view?usp=sharing"
           className="inline-block mb-3 rounded bg-primary text-center border-0 py-2 px-6 text-white leading-7 tracking-wide hover:bg-secondary"
-          download="Resume"
         >
           Download Resume
         </a>
@@ -124,7 +123,7 @@ const Sidebar = () => {
             </tr>
             <tr>
               <td className="px-2 py-2 text-gray-500 font-semibold">Email</td>
-              <td className="px-2 py-2">assiddik001@gmail.com</td>
+              <td className="px-2 py-2">contact@imshama.com</td>
             </tr>
             <tr>
               <td className="px-2 py-2 text-gray-500 font-semibold">
