@@ -4,7 +4,7 @@ import SkillItem from "./SkillItem";
 const skillData = [
   {
     id: 1,
-    title: "Html, Css, Scss",
+    title: "HTML, CSS",
     percentage: "95%",
   },
   {

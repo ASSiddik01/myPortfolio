@@ -109,7 +109,7 @@ const Sidebar = () => {
       </div>
       <div className="text-start pt-4">
         <h3 className="text-md mb-2 uppercase font-medium text-gray-800">
-          Details
+          Contact Info
         </h3>
         <table className="text-xs my-3">
           <tbody>

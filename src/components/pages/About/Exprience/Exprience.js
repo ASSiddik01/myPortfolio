@@ -3,8 +3,8 @@ const expriences = [
   {
     _id: 1,
     institute: "ITFLE Ltd.",
-    year: "2021 - Running",
-    designation: "Web developer",
+    year: "2021 - 2022",
+    designation: "Shopify Theme Developer.",
   },
   {
     _id: 2,

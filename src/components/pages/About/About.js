@@ -10,11 +10,12 @@ const About = () => {
       <div className="flex flex-wrap md:px-4">
         <div className="w-full">
           <div className="md:mx-4">
-            <h3 className="text-2xl text-natural font-bold mb-4">Who am I?</h3>
+            <h3 className="text-2xl text-natural font-bold mb-4">About Me</h3>
             <p className="text-sm text-natural leading-6 mb-3">
-              It's Shama from Squeak It. Currently, I running a small team
-              providing complete e-commerce service, data processing, and any
-              type of website development.
+              I'm Abu Shama. A passionate web developer. <br /> Frontend Web
+              Developer at Softlab Ltd. || Web Developer at ITFLE Ltd. || MERN
+              Developer || Shopify, WiX and Squarespace Expert || E-commerce Web
+              Developer || BBA Major at Finance and Banking, BRUR.
             </p>
             <p className="text-sm text-natural leading-6 mb-3">
               Since 2017, we are providing complete e-commerce services

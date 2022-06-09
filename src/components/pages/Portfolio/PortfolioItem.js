@@ -28,7 +28,7 @@ const PortfolioItem = (props) => {
           </div>
         </div>
         <div className="flex justify-between">
-          <h3 className="text-lg font-bold text-gray-800 mb-2">{name}</h3>
+          <h3 className="text-lg font-bold  mb-2 text-primary">{name}</h3>
           <h5 className="text-sm">
             <span className="font-bold">Type:</span> {type}{" "}
           </h5>

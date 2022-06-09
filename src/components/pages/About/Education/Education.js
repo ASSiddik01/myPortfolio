@@ -51,11 +51,11 @@ const Education = () => {
           <thead>
             <tr>
               <th className="bg-red-200">SL.</th>
-              <th className="bg-red-200">Exam Name</th>
+              <th className="bg-red-200">Name of Degree</th>
               <th className="bg-red-200">Institute</th>
               <th className="bg-red-200">Passing Year</th>
               <th className="bg-red-200">Grade</th>
-              <th className="bg-red-200">Group</th>
+              <th className="bg-red-200">Group/Department</th>
             </tr>
           </thead>
           <tbody>
