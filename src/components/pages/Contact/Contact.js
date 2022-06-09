@@ -1,9 +1,28 @@
 import React from "react";
 
+import emailjs from "emailjs-com";
+import "react-toastify/dist/ReactToastify.css";
+import { toast } from "react-toastify";
+
 const Contact = () => {
   const handleForm = (e) => {
     e.preventDefault();
-    console.log(e);
+    emailjs
+      .sendForm(
+        "service_mpis7ys",
+        "template_cilqkoc",
+        e.target,
+        "GAE1qW-FeP-z76BKq"
+      )
+      .then((res) => {
+        console.log(res);
+        toast(`${res.text}, ${e.target.name.value} your mail is send`);
+      })
+      .catch((err) => {
+        toast.success(
+          `${err.text}, ${e.target.name.value} your mail is not send`
+        );
+      });
   };
   return (
     <section className="pb-10">
