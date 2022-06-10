@@ -75,7 +75,7 @@ const Sidebar = () => {
       <div className="text-center">
         <h1 className="text-xl text-natural  mb-1 rye">Abu Shama</h1>
         <p className="text-sm text-natural mb-1">
-          Web developer at
+          Shopify Theme Developer
           <a
             target="blank"
             href="https://itfle.com/"
