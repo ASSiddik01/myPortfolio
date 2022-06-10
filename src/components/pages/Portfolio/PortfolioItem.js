@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaRegEye } from "react-icons/fa";
+import ProtfolioDetails from "./ProtfolioDetails";
 
-const PortfolioItem = (props) => {
-  const { name, type, url, img, description } = props.portfolio;
+const PortfolioItem = ({ portfolio }) => {
+  const { name, type, url, img, description } = portfolio;
+
+  const [portfolioModal, setPortfolioModal] = useState(null);
+
   return (
     <div className="w-full lg:w-1/2">
       <div className="my-4 md:mx-4 shadow p-6 rounded-md bg-white group hover:shadow-md">
@@ -35,11 +39,23 @@ const PortfolioItem = (props) => {
         </div>
         <p className="text-natural">{description}</p>
         <div className="flex justify-center">
-          <button className="inline-block mt-3 rounded bg-primary text-center border-0 py-2 px-6 text-white leading-7 tracking-wide hover:bg-secondary">
+          <label
+            onClick={() => setPortfolioModal(portfolio)}
+            htmlFor="protfolioModal"
+            className="inline-block mt-3 rounded bg-primary text-center border-0 py-2 px-6 text-white leading-7 tracking-wide hover:bg-secondary"
+          >
             Project Details
-          </button>
+          </label>
         </div>
       </div>
+      {/* Load Modal */}
+      {portfolioModal && (
+        <ProtfolioDetails
+          portfolioModal={portfolioModal}
+          // refetch={refetch}
+          setPortfolioModal={setPortfolioModal}
+        ></ProtfolioDetails>
+      )}
     </div>
   );
 };

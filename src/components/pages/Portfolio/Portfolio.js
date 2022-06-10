@@ -16,6 +16,12 @@ const portfolioData = [
     url: "https://electric-cart.web.app/",
     img: project1,
     description: "Sell Manufactured Tools",
+    features: {
+      f1: "Admin can add product and site management",
+      f2: "Site secure by json web token ( JWT)",
+      f3: "User can payment by stripe",
+    },
+    tt: "React JS, Tailwind CSS, React Router, Firebase, React Firebase Hook, React Icon, DaisyUI, React Toast, React Hook Form, React Query. Express JS, Mongo DB",
   },
   {
     _id: 2,
