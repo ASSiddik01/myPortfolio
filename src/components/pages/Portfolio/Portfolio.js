@@ -30,6 +30,12 @@ const portfolioData = [
     url: "https://dear-grocery.web.app/",
     img: project2,
     description: "Sell Grocery Items",
+    features: {
+      f1: "Admin can site management and add product.",
+      f2: "User can buy product and cancel their order",
+      f3: "Payment received by stripe",
+    },
+    tt: "React JS, Tailwind, React Router, Firebase, React Firebase Hook, React Icon, DaisyUI, React Toast, React Hook Form, React Query, React Slick Carousel, Express JS, Mongo DB",
   },
   {
     _id: 3,
@@ -38,6 +44,12 @@ const portfolioData = [
     url: "https://car-archive-13491.web.app/",
     img: project3,
     description: "Car Dealer / Inventory Website",
+    features: {
+      f1: "Use firebase for login email password or google",
+      f2: "Admin can add new product, update and delete",
+      f3: "Responsive by bootstrap",
+    },
+    tt: "React JS, Bootstrap, React Router, Firebase, React Firebase Hook, Font Awesome, React Toast, React Hook Form, Express JS, Mongo DB",
   },
   {
     _id: 4,
@@ -46,6 +58,12 @@ const portfolioData = [
     url: "https://denti-care-fe8eb.web.app/",
     img: project4,
     description: "Dental Treatment Service",
+    features: {
+      f1: "Use firebase for login email password or google",
+      f2: "Sent email varification to the every email password register user",
+      f3: "Responsive for large, medium, mobile device",
+    },
+    tt: "Boostrap, Firebase, React firebase hook, FontAwesome, React Router, React toast, Framework",
   },
   {
     _id: 5,
@@ -54,6 +72,12 @@ const portfolioData = [
     url: "https://assiddik01.github.io/Softlab_Tea/",
     img: project5,
     description: "Tea Factory Website",
+    features: {
+      f1: "Admin can add product and site management",
+      f2: "Site secure by json web token ( JWT)",
+      f3: "User can payment by stripe",
+    },
+    tt: "React JS, Tailwind CSS, React Router, Firebase, React Firebase Hook, React Icon, DaisyUI, React Toast, React Hook Form, React Query. Express JS, Mongo DB",
   },
   {
     _id: 6,
@@ -62,6 +86,12 @@ const portfolioData = [
     url: "https://assiddik01.github.io/Softlab_Tea/",
     img: project6,
     description: "SAAS Landing",
+    features: {
+      f1: "Admin can add product and site management",
+      f2: "Site secure by json web token ( JWT)",
+      f3: "User can payment by stripe",
+    },
+    tt: "React JS, Tailwind CSS, React Router, Firebase, React Firebase Hook, React Icon, DaisyUI, React Toast, React Hook Form, React Query. Express JS, Mongo DB",
   },
   {
     _id: 7,
@@ -70,6 +100,12 @@ const portfolioData = [
     url: "https://assiddik01.github.io/Softlab_Resturent_01/",
     img: project7,
     description: "Food Delivery",
+    features: {
+      f1: "Admin can add product and site management",
+      f2: "Site secure by json web token ( JWT)",
+      f3: "User can payment by stripe",
+    },
+    tt: "React JS, Tailwind CSS, React Router, Firebase, React Firebase Hook, React Icon, DaisyUI, React Toast, React Hook Form, React Query. Express JS, Mongo DB",
   },
 ];
 
