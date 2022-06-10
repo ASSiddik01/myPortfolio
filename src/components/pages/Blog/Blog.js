@@ -1,38 +1,26 @@
 import React from "react";
-import image1 from "../../../images/blog/blog-01.jpg";
-import image2 from "../../../images/blog/blog-02.jpg";
-import image3 from "../../../images/blog/blog-03.jpg";
-import image4 from "../../../images/blog/blog-04.jpg";
+import image1 from "../../../images/blog/blog01.png";
 import BlogItem from "./BlogItem";
 
 const blogData = [
   {
-    id: 1,
-    image: image1,
-    title: "20 Best Prototyping and Design Tools for Product Design",
+    _id: 1,
+    img: image1,
+    title: "Fix React web app page not found",
     description:
-      "Prototyping Tool Prototyping is a process that enables faster creativity and effective experimentation for the product team.",
-  },
-  {
-    id: 2,
-    image: image2,
-    title: "15+ Top Sources to Download Free Stock Photos",
-    description:
-      "Wanna decorate your blog with photos? But don't have any photographic skills or fees to pay for photos?",
-  },
-  {
-    id: 3,
-    image: image3,
-    title: "15+ Free Startup Landing Page and Web Templates",
-    description:
-      "A landing page is a page designed to turn visitors into leads. It is separate from other pages on your...",
-  },
-  {
-    id: 4,
-    image: image4,
-    title: "10+ Sources to Download Free SVG Illustrations",
-    description:
-      "There is no doubt about the importance of Scalable Vector Graphics illustration today.",
+      "After hosting react website on cPanel, if you go another router/page then you reload you show page not found. You can fix it easy ways. goto Public folder on your react app. Then create a .htaccess file. Then peast the code and save the file. then build your project and deploy in cPanel.",
+    code: `<IfModule mod_rewrite.c>
+
+    RewriteEngine On
+    RewriteBase /
+    RewriteRule ^index\\.html$ - [L]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-l
+    RewriteRule . /index.html [L]
+  
+  </IfModule>
+  `,
   },
 ];
 
@@ -40,8 +28,8 @@ const Blog = () => {
   return (
     <section className="pb-10">
       <div className="flex flex-wrap md:px-4">
-        {blogData.map((blog, id) => (
-          <BlogItem blog={blog} key={id} />
+        {blogData.map((blog, _id) => (
+          <BlogItem blog={blog} key={_id} />
         ))}
       </div>
     </section>
