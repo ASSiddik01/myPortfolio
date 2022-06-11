@@ -1,7 +1,8 @@
 import React from "react";
 
 const ProtfolioDetails = ({ portfolioModal, setPortfolioModal }) => {
-  const { name, type, url, img, description, features, tt } = portfolioModal;
+  const { name, type, url, img1, img2, img3, description, features, tt } =
+    portfolioModal;
   const closeModal = () => {
     setPortfolioModal(null);
   };
@@ -18,7 +19,7 @@ const ProtfolioDetails = ({ portfolioModal, setPortfolioModal }) => {
             ✕
           </label>
           <div>
-            <img src={img} alt="" />
+            <img src={img1} alt="" />
             <div className="lg:px-6 md:px-4 px-2">
               <h2 className="text-2xl font-bold  mt-2 text-primary">{name}</h2>
               <h5 className="text-lg mt-2">
@@ -38,8 +39,8 @@ const ProtfolioDetails = ({ portfolioModal, setPortfolioModal }) => {
                 </ul>
               )}
               <div className="block lg:flex justify-between mt-5">
-                <img className="lg:w-1/2 lg:mr-2 my-2" src={img} alt="" />
-                <img className="lg:w-1/2 lg:ml-2 my-2" src={img} alt="" />
+                <img className="lg:w-1/2 lg:mr-2 my-2" src={img2} alt="" />
+                <img className="lg:w-1/2 lg:ml-2 my-2" src={img3} alt="" />
               </div>
               {tt && (
                 <h5 className="text-lg mt-2">

@@ -3,7 +3,7 @@ import { FaRegEye } from "react-icons/fa";
 import ProtfolioDetails from "./ProtfolioDetails";
 
 const PortfolioItem = ({ portfolio }) => {
-  const { name, type, url, img, description } = portfolio;
+  const { name, type, url, img1, description } = portfolio;
 
   const [portfolioModal, setPortfolioModal] = useState(null);
 
@@ -12,7 +12,7 @@ const PortfolioItem = ({ portfolio }) => {
       <div className="my-4 md:mx-4 shadow p-6 rounded-md bg-white group hover:shadow-md">
         <div className="relative mb-6 w-full h-48 bg-red-200 rounded-md overflow-hidden">
           <img
-            src={img}
+            src={img1}
             alt="coverimg"
             className="w-full h-full object-cover object-center"
           />
